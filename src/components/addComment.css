@@ -1,0 +1,39 @@
+.commentBox{
+    display: flex;
+    background-color: #f0f2f5;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  
+}
+.TextBox{
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.user_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.text{
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 20px;
+    font-size: 14px;
+    width:inherit;
+}
+.send_btn{
+    outline: none;
+    border: none;
+    width: 70px;
+    margin: 5px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.55);
+    height: 30px;
+}

@@ -1,0 +1,42 @@
+.post{
+    width: 660px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 1rem;
+}
+.userImage{
+    border-radius: 50%;
+}
+.author{
+    width: 100%;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.name{
+    margin-left: 10px;
+}
+.postImage{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+.likes_date{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+    border-top: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.likes{
+    display: flex;
+}
+.description{
+    padding: .5rem 0 ;
+}
+.comments{
+    border-top: 1px solid rgba(0,0,0,.15);
+}

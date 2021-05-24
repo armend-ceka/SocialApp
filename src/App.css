@@ -1,38 +1,75 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #1877f2;
+}
+.navbar ul {
+  height: 56;
+  list-style-type: none;
+}
+.navitem {
+  width: 150px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  float: left;
+  font-size: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navitem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar a {
   color: white;
+  text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  width: 860px;
+  margin: 0 auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: #f0f2f5;
+}
+.bottom {
+  width: 450px;
+  height: 3px;
+  margin: 0 auto;
+}
+.top {
+  width: 450px;
+  height: 46px;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+.userList {
+  width: 660px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.userList a {
+  text-decoration: none;
+  color: black;
+}
+.userPage {
+  width: 660px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+}
+.user_top{
+  display: flex;
+}
+.left{
+  width: 25%;
 }
