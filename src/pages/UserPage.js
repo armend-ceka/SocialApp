@@ -109,7 +109,7 @@ export default function UserPage() {
           <div>
             <img
               src={`https://maps.googleapis.com/maps/api/staticmap?center=${user.location.city},${user.location.country}&zoom=13&size=600x300&maptype=roadmap
-&key=AIzaSyA9UBCppN5OyYw_MZkeyvWuvrzyEMIcvqw`}
+&key=[YOUR API KEY]`}
               style={{ width: "100%" }}
             />
           </div>
